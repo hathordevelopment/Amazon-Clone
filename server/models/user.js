@@ -50,3 +50,5 @@ UserSchema.methods.gravatar = (size) => {
     }
     
 }
+
+module.exports = mongoose.model('User', UserSchema);
